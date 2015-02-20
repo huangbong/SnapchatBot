@@ -1,5 +1,5 @@
 import subprocess, uuid
-from PIL import Image
+import Image
 from StringIO import StringIO
 
 from utils import guess_type, create_temporary_file, get_video_duration, resize_image, file_extension_for_type
