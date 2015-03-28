@@ -25,7 +25,7 @@ class SnapchatBot(object):
             self.initialize(**kwargs)
 
     def log(self, message, level=logging.DEBUG):
-        logger.log(level, "[%s-%s] %s" % (self.__class__.__name__, self.bot_id, message))
+        logger.log(level, "[/%s-%s] %s" % (self.__class__.__name__, self.bot_id, message))
 
     @staticmethod
     def process_snap(snap_obj, data):
