@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+import subprocess, uuid
+import Image
+=======
 import subprocess, uuid, os
 from PIL import Image
+>>>>>>> upstream/master
 from StringIO import StringIO
 
 from utils import guess_type, create_temporary_file, get_video_duration, resize_image, file_extension_for_type, default_filename_for_snap, cmd_exists, extract_zip_components
